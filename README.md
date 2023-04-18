@@ -30,18 +30,18 @@ Taking this business problem in mind, we will move ahead in understanding this p
 For this we are using 2 models.
 
 1. [Face Detection Using Haar-cascade Algorithm](#https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml)
-- This module includes detecting as many faces inside the image
-- Creating bounding box around these faces
+   - This module includes detecting as many faces inside the image
+   - Creating bounding box around these faces
 2. [CNN Trained Model](file:///modelling/model.h5):
-- Library Management
-- [Sourcing Data](#https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer)
-- Model Training (With Hyperparameter Tuning)
-3. Using Trained Model for detecting Face(s) & Emotion(s) on live video stream using WebCam
+   - Library Management
+   - [Sourcing Data](#https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer)
+   - Model Training (With Hyperparameter Tuning)
+3. Using Trained Model for detecting Face(s) & Emotion(s) on WebCam
 
-motion classification accuracy is capped at 61% as model training is still under development
 
-User can run `main.py` to detect emotions.
-Webcam is needed to capture live stream
+Note:
+- User can run `main.py` to detect emotions.
+- Webcam is needed to capture live stream
 
 ---
 
